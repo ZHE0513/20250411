@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.menu {
+  position: absolute;
+  top: 10px;
+  right: 100px; /* Move the menu 100px away from the right edge */
+  display: flex;
+  gap: 20px; /* Set spacing between menu items */
+  background-color: rgba(231, 111, 81, 0.2); /* Menu background color with 0.2 opacity */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu-item {
+  padding: 5px 10px;
+  background: transparent;
+  color: #000000; /* Text color changed to black */
+  font-size: 18px; /* Text size */
+  font-family: Arial, sans-serif; /* Font family */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.menu-item:hover {
+  color: #a3b18a; /* Text color on hover */
+}
